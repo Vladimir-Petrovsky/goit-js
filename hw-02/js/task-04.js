@@ -1,15 +1,13 @@
 'use strict';
 
 const formatString = function(string) {
-  const symbols = string.split('');
-  const symbolPerLine = symbols.length;
+  const symbolPerLine = string.length;
   let message;
 
   if (symbolPerLine <= 40) {
-    message = symbols.join('');
+    message = string;
   } else {
-    let modifiedArr = symbols.slice(0, 40);
-    message = `${modifiedArr.join('') + '...'}`;
+    message = `${string.substring(0, 40)}...`;
   }
 
   return message;
