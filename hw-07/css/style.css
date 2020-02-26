@@ -1,0 +1,30 @@
+.task-title {
+  margin: 16px 0;
+  background: #575757;
+  color: #ffffff;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 900px;
+  list-style: none;
+}
+
+#gallery li img {
+  width: 350px;
+  border: 1px solid #575757;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
