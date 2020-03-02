@@ -1,6 +1,6 @@
 'use strict';
 
-import galleryItems from 'gallery-items.js';
+import galleryItems from './gallery-items.js';
 
 const refs = {
   galleryParent: document.querySelector('ul.gallery'),
